@@ -9,93 +9,84 @@ CreatorOS analyzes your past content, identifies what works, researches viral tr
 ## ✨ Features
 
 ### 📊 Smart Content Audit
-- Analyze past posts (CSV, captions, metadata)
-- Identify:
-  - High-performing hooks
-  - Best posting times
-  - Engagement patterns
-- Generate actionable insights
-
----
+*   Analyze past posts (CSV, captions, metadata)
+*   Identify:
+    *   High-performing hooks
+    *   Best posting times
+    *   Engagement patterns
+*   Generate actionable insights
 
 ### 🧠 AI Agent System
-
 Built using Claude’s agent ecosystem:
-
-- **Strategist Agent** → Defines growth direction  
-- **Analytics Agent** → Audits performance  
-- **Trend Research Agent** → Finds viral patterns  
-- **SEO Writer Agent** → Generates captions & hooks  
-- **Planner Agent** → Creates content calendars  
-
----
+*   **Strategist Agent** → Defines growth direction  
+*   **Analytics Agent** → Audits performance  
+*   **Trend Research Agent** → Finds viral patterns  
+*   **SEO Writer Agent** → Generates captions & hooks  
+*   **Planner Agent** → Creates content calendars  
 
 ### 🔥 Viral Content Engine
-- Breaks down viral videos in your niche
-- Extracts:
-  - Hook structures
-  - Storytelling formats
-  - Emotional triggers
-- Converts insights into repeatable content ideas
-
----
+*   Breaks down viral videos in your niche
+*   Extracts:
+    *   Hook structures
+    *   Storytelling formats
+    *   Emotional triggers
+*   Converts insights into repeatable content ideas
 
 ### ✍️ SEO-Optimized Captions (2026-ready)
-
 Generates platform-specific content for:
-- Instagram
-- TikTok
-- YouTube Shorts
+*   Instagram
+*   TikTok
+*   YouTube Shorts
 
 Includes:
-- Captions  
-- Hooks  
-- Hashtags  
-- Keyword tags  
-- CTAs  
-
----
+*   Captions  
+*   Hooks  
+*   Hashtags  
+*   Keyword tags  
+*   CTAs  
 
 ### 📅 Growth Planning
-- Daily content ideas  
-- Weekly posting plan  
-- Monthly growth roadmap  
-
----
+*   Daily content ideas  
+*   Weekly posting plan  
+*   Monthly growth roadmap  
 
 ### 🔁 Continuous Learning
-- Stores creator profile in memory  
-- Adapts based on:
-  - Past performance  
-  - Audience behavior  
-  - Trend evolution  
+*   Stores creator profile in memory  
+*   Adapts based on:
+    *   Past performance  
+    *   Audience behavior  
+    *   Trend evolution  
 
 ---
 
 ## 🧩 Claude Features Used
 
 | Feature | Usage |
-|--------|------|
-| MCP (Model Context Protocol) | Connect YouTube, Reddit, Notion, Google Sheets |
-| Subagents | Modular agents for each responsibility |
-| Skills | Reusable workflows (captions, hooks, analysis) |
-| Memory | Persistent creator profile |
-| Hooks | Automated workflows |
-| Parallel Agents | Run tasks simultaneously |
-| CLAUDE.md | System orchestration |
+| :--- | :--- |
+| **MCP (Model Context Protocol)** | Connect YouTube, Reddit, Notion, Google Sheets |
+| **Subagents** | Modular agents for each responsibility |
+| **Skills** | Reusable workflows (captions, hooks, analysis) |
+| **Memory** | Persistent creator profile |
+| **Hooks** | Automated workflows |
+| **Parallel Agents** | Run tasks simultaneously |
+| **CLAUDE.md** | System orchestration |
+
+---
 
 ## 🏗️ Architecture
 
-
-User Input
-↓
-Orchestrator Agent
-↓
-┌───────────────┬───────────────┬───────────────┬───────────────┐
-│ Analytics │ Trend Research│ SEO Writer │ Planner │
-│ Agent │ Agent │ Agent │ Agent │
-└───────────────┴───────────────┴───────────────┴───────────────┘
-↓
+      User Input
+          │
+          ▼
+  Orchestrator Agent
+          │
+ ┌────────┴────────┬────────────────┬──────────────┐
+ ▼                 ▼                ▼              ▼
+Analytics       Trend Research     SEO Writer       Planner
+Agent             Agent             Agent          Agent
+└────────┬────────┴────────────────┬──────────────┘
+│
+▼
 Unified Growth Strategy Output
 
 
@@ -103,6 +94,7 @@ Unified Growth Strategy Output
 
 ## 📂 Project Structure
 
+```text
 .claude/
 ├── agents/
 │   ├── strategist.md
@@ -128,27 +120,18 @@ Unified Growth Strategy Output
 │
 ├── CLAUDE.md
 └── .mcp.json
-
----
-
-## ⚙️ Setup
-
-### 1. Clone the repo
-
-```bash
+⚙️ Setup
+1. Clone the repo
+Bash
 git clone https://github.com/your-username/creator-os.git
 cd creator-os
-
-```bash
-### 2. Install dependencies
-```bash
+2. Install dependencies
+Bash
 npm install
-```bash
-### 3. Configure MCP servers
-
+3. Configure MCP servers
 Edit .mcp.json:
 
-```bash
+JSON
 {
   "servers": [
     { "name": "youtube", "type": "api" },
@@ -157,68 +140,71 @@ Edit .mcp.json:
     { "name": "google-sheets", "type": "api" }
   ]
 }
-```bash
-
-### 4. Run the app
-
-```bash
+4. Run the app
+Bash
 npm run dev
-```bash
-
 📥 Input Examples
-
 You can provide:
 
 TikTok / Instagram analytics CSV
+
 YouTube Shorts metadata
+
 Past captions
-Niche description (e.g. “travel + wellness”)
+
+Niche description (e.g., "travel + wellness")
+
 📤 Example Output
 🔍 Insights
-
 Your storytelling videos outperform aesthetic edits by 42% in watch time.
 
 📅 Weekly Plan
 Mon: Emotional travel story
+
 Tue: Routine / lifestyle POV
+
 Wed: Day-in-the-life storytelling
+
 Thu: Educational tip
+
 Fri: Relatable humor
+
 Sat: Aesthetic montage
+
 Sun: Reflection / storytelling
+
 ✍️ TikTok Caption
-
+Plaintext
 training like a korean ajumma so i don’t travel like a tourist 😭
-
-Hashtags:
-#travelroutine #koreatravel #realtravel #slowtravel #travelvlog
+Hashtags: #travelroutine #koreatravel #realtravel #slowtravel #travelvlog
 
 🎯 Viral Idea
-
-POV: you stopped rushing and started actually experiencing your travels
+POV: You stopped rushing and started actually experiencing your travels.
 
 🔮 Roadmap
- Thumbnail analyzer
- Retention prediction
- Auto-posting integrations
- Creator niche clustering
- Real-time trend alerts
+[ ] Thumbnail analyzer
+
+[ ] Retention prediction
+
+[ ] Auto-posting integrations
+
+[ ] Creator niche clustering
+
+[ ] Real-time trend alerts
+
 🤝 Contributing
-
-PRs are welcome!
-
-Feel free to improve:
+PRs are welcome! Feel free to improve:
 
 Agent workflows
-Caption quality
-Integrations
-UI/UX
-📄 License
 
-MIT License
+Caption quality
+
+Integrations
+
+UI/UX
+
+📄 License
+This project is licensed under the MIT License.
 
 💡 Final Note
-
-This is not just another AI wrapper.
-
-CreatorOS is an agent-driven system that learns, adapts, and evolves with your content — like a real growth team.
+This is not just another AI wrapper. CreatorOS is an agent-driven system that learns, adapts, and evolves with your content — like a real growth team.
