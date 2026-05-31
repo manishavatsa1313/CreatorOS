@@ -103,33 +103,31 @@ Unified Growth Strategy Output
 
 ## 📂 Project Structure
 
-
 .claude/
 ├── agents/
-│ ├── strategist.md
-│ ├── seo-writer.md
-│ ├── analytics-auditor.md
-│ ├── viral-researcher.md
-│ └── planner.md
+│   ├── strategist.md
+│   ├── seo-writer.md
+│   ├── analytics-auditor.md
+│   ├── viral-researcher.md
+│   └── planner.md
 │
 ├── skills/
-│ ├── generate-caption/
-│ │ └── SKILL.md
-│ ├── analyze-virality/
-│ │ └── SKILL.md
-│ └── optimize-hooks/
-│ └── SKILL.md
+│   ├── generate-caption/
+│   │   └── SKILL.md
+│   ├── analyze-virality/
+│   │   └── SKILL.md
+│   └── optimize-hooks/
+│       └── SKILL.md
 │
 ├── hooks/
-│ ├── after-upload.sh
-│ └── daily-digest.sh
+│   ├── after-upload.sh
+│   └── daily-digest.sh
 │
 ├── memory/
-│ └── creator-profile.json
+│   └── creator-profile.json
 │
 ├── CLAUDE.md
 └── .mcp.json
-
 
 ---
 
