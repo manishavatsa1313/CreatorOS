@@ -138,12 +138,17 @@ Unified Growth Strategy Output
 ```bash
 git clone https://github.com/your-username/creator-os.git
 cd creator-os
-2. Install dependencies
+
+```bash
+### 2. Install dependencies
+```bash
 npm install
-3. Configure MCP servers
+```bash
+### 3. Configure MCP servers
 
 Edit .mcp.json:
 
+```bash
 {
   "servers": [
     { "name": "youtube", "type": "api" },
@@ -152,8 +157,14 @@ Edit .mcp.json:
     { "name": "google-sheets", "type": "api" }
   ]
 }
-4. Run the app
+```bash
+
+### 4. Run the app
+
+```bash
 npm run dev
+```bash
+
 📥 Input Examples
 
 You can provide:
