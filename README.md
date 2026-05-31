@@ -158,29 +158,20 @@ Hashtags: #travelroutine #koreatravel #realtravel #slowtravel #travelvlog
 POV: You stopped rushing and started actually experiencing your travels.
 
 🔮 Roadmap
+
 [ ] Thumbnail analyzer
-
 [ ] Retention prediction
-
 [ ] Auto-posting integrations
-
 [ ] Creator niche clustering
-
 [ ] Real-time trend alerts
 
-🤝 Contributing
+## 🤝 Contributing
 PRs are welcome! Feel free to improve:
 
 Agent workflows
-
 Caption quality
-
 Integrations
-
 UI/UX
 
-📄 License
-This project is licensed under the MIT License.
-
-💡 Final Note
+## 💡 Final Note
 This is not just another AI wrapper. CreatorOS is an agent-driven system that learns, adapts, and evolves with your content — like a real growth team.
