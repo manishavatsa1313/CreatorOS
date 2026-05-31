@@ -104,15 +104,17 @@ Includes:
 ```
 ⚙️ Setup
 1. Clone the repo
-Bash
+```bash
 git clone https://github.com/your-username/creator-os.git
 cd creator-os
+```
 2. Install dependencies
-Bash
+```bash
 npm install
+```
 3. Configure MCP servers
 Edit .mcp.json:
-
+```bash
 JSON
 {
   "servers": [
@@ -122,9 +124,11 @@ JSON
     { "name": "google-sheets", "type": "api" }
   ]
 }
+```
 4. Run the app
-Bash
+```bash
 npm run dev
+```
 📥 Input Examples
 You can provide:
 
