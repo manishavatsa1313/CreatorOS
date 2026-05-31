@@ -73,25 +73,6 @@ Includes:
 
 ---
 
-## 🏗️ Architecture
-
-      User Input
-          │
-          ▼
-  Orchestrator Agent
-          │
- ┌────────┴────────┬────────────────┬──────────────┐
- ▼                 ▼                ▼              ▼
-Analytics       Trend Research     SEO Writer       Planner
-Agent             Agent             Agent          Agent
-└────────┬────────┴────────────────┬──────────────┘
-│
-▼
-Unified Growth Strategy Output
-
-
----
-
 ## 📂 Project Structure
 
 ```text
@@ -120,6 +101,7 @@ Unified Growth Strategy Output
 │
 ├── CLAUDE.md
 └── .mcp.json
+```
 ⚙️ Setup
 1. Clone the repo
 Bash
