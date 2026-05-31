@@ -83,3 +83,133 @@ Includes:
 | Hooks | Automated workflows |
 | Parallel Agents | Run tasks simultaneously |
 | CLAUDE.md | System orchestration |
+
+## 🏗️ Architecture
+
+
+User Input
+↓
+Orchestrator Agent
+↓
+┌───────────────┬───────────────┬───────────────┬───────────────┐
+│ Analytics │ Trend Research│ SEO Writer │ Planner │
+│ Agent │ Agent │ Agent │ Agent │
+└───────────────┴───────────────┴───────────────┴───────────────┘
+↓
+Unified Growth Strategy Output
+
+
+---
+
+## 📂 Project Structure
+
+
+.claude/
+├── agents/
+│ ├── strategist.md
+│ ├── seo-writer.md
+│ ├── analytics-auditor.md
+│ ├── viral-researcher.md
+│ └── planner.md
+│
+├── skills/
+│ ├── generate-caption/
+│ │ └── SKILL.md
+│ ├── analyze-virality/
+│ │ └── SKILL.md
+│ └── optimize-hooks/
+│ └── SKILL.md
+│
+├── hooks/
+│ ├── after-upload.sh
+│ └── daily-digest.sh
+│
+├── memory/
+│ └── creator-profile.json
+│
+├── CLAUDE.md
+└── .mcp.json
+
+
+---
+
+## ⚙️ Setup
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/creator-os.git
+cd creator-os
+2. Install dependencies
+npm install
+3. Configure MCP servers
+
+Edit .mcp.json:
+
+{
+  "servers": [
+    { "name": "youtube", "type": "api" },
+    { "name": "reddit", "type": "api" },
+    { "name": "notion", "type": "api" },
+    { "name": "google-sheets", "type": "api" }
+  ]
+}
+4. Run the app
+npm run dev
+📥 Input Examples
+
+You can provide:
+
+TikTok / Instagram analytics CSV
+YouTube Shorts metadata
+Past captions
+Niche description (e.g. “travel + wellness”)
+📤 Example Output
+🔍 Insights
+
+Your storytelling videos outperform aesthetic edits by 42% in watch time.
+
+📅 Weekly Plan
+Mon: Emotional travel story
+Tue: Routine / lifestyle POV
+Wed: Day-in-the-life storytelling
+Thu: Educational tip
+Fri: Relatable humor
+Sat: Aesthetic montage
+Sun: Reflection / storytelling
+✍️ TikTok Caption
+
+training like a korean ajumma so i don’t travel like a tourist 😭
+
+Hashtags:
+#travelroutine #koreatravel #realtravel #slowtravel #travelvlog
+
+🎯 Viral Idea
+
+POV: you stopped rushing and started actually experiencing your travels
+
+🔮 Roadmap
+ Thumbnail analyzer
+ Retention prediction
+ Auto-posting integrations
+ Creator niche clustering
+ Real-time trend alerts
+🤝 Contributing
+
+PRs are welcome!
+
+Feel free to improve:
+
+Agent workflows
+Caption quality
+Integrations
+UI/UX
+📄 License
+
+MIT License
+
+💡 Final Note
+
+This is not just another AI wrapper.
+
+CreatorOS is an agent-driven system that learns, adapts, and evolves with your content — like a real growth team.
