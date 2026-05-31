@@ -102,7 +102,7 @@ Includes:
 ├── CLAUDE.md
 └── .mcp.json
 ```
-⚙️ Setup
+### ⚙️ Setup
 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/creator-os.git
@@ -129,41 +129,31 @@ JSON
 ```bash
 npm run dev
 ```
-📥 Input Examples
-You can provide:
+### 📥 Input Examples You can provide:
 
-TikTok / Instagram analytics CSV
+1. TikTok / Instagram analytics CSV
+2. YouTube Shorts metadata
+3. Past captions
+4. Niche description (e.g., "travel + wellness")
 
-YouTube Shorts metadata
-
-Past captions
-
-Niche description (e.g., "travel + wellness")
-
-📤 Example Output
+### 📤 Example Output
 🔍 Insights
 Your storytelling videos outperform aesthetic edits by 42% in watch time.
 
 📅 Weekly Plan
 Mon: Emotional travel story
-
 Tue: Routine / lifestyle POV
-
 Wed: Day-in-the-life storytelling
-
 Thu: Educational tip
-
 Fri: Relatable humor
-
 Sat: Aesthetic montage
-
 Sun: Reflection / storytelling
 
 ✍️ TikTok Caption
-Plaintext
+```text
 training like a korean ajumma so i don’t travel like a tourist 😭
 Hashtags: #travelroutine #koreatravel #realtravel #slowtravel #travelvlog
-
+```
 🎯 Viral Idea
 POV: You stopped rushing and started actually experiencing your travels.
 
